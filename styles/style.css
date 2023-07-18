@@ -1,0 +1,36 @@
+.header {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  justify-items: center;
+}
+
+.header__links-list {
+  display: flex;
+  list-style-type: circle;
+  gap: 13px;
+}
+
+.header__links-list-item {
+  padding-right: 12px;
+}
+
+.header__links-list-no-bullet {
+  list-style: none;
+}
+
+.header__link-active {
+  text-decoration: none;
+}
+
+.header__logo {
+  width: 148px;
+}
+
+.header__logo-image {
+  width: 100%;
+}
+
+.header__address {
+  display: flex;
+  flex-direction: column;
+}
