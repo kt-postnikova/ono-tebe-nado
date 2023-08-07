@@ -54,6 +54,7 @@ body {
 }
 
 .header__address {
+  width: 240px;
   display: flex;
   flex-direction: column;
   font-style: normal;
